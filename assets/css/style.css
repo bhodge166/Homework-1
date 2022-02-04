@@ -1,13 +1,16 @@
+/* Universal settings for box sizing padding and margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color for body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets styling for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Styling for h1 in header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets color for id in header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets positioning and font styles for nav elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Removes styling for list items */
 header nav ul {
     list-style-type: none;
 }
 
+/* Sets positioning for nav list items */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Color for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font size for paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Sets styling for background image. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Sets positioning for image */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets positioning for image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Added to main. Sets width and display styling for sections */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 } 
 
+/* Sets styling for aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,16 +101,19 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated for articles. Sets margin and color */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Consolidated for asrticles. Sets margin and alignment for headers */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Consolidated for article images. Sets margin, alignment, display and width of images */
 .benefit img {
     margin-bottom: 10px;
     text-align: center;
@@ -104,6 +122,7 @@ p {
     max-width: 150px;
 }
 
+/* Consolidated for main sections. Sets background color, text color, font, and positioning */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,15 +132,18 @@ main section {
     color: #ffffff; 
 }
 
+/* Consolidated for images in  main tag. Sets height */
 main img {
     max-height: 200px;
 }
 
+/* Consolidated for headers in main sections. Sets margin and font size */
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Sets styling for added footer semantic tag. */
 footer {
     padding: 30px;
     clear: both;
@@ -129,6 +151,7 @@ footer {
     text-align: center;
 }
 
+/* Sets font size for footer h2 */
 footer h2 {
     font-size: 20px;
 }
